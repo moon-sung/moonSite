@@ -1,0 +1,36 @@
+.black-bg {
+  width : 100%;
+  position : fixed;
+  background : rgba(0,0,0,0.5);
+  z-index : 5;
+  padding: 30px;
+  visibility: hidden;
+  transition: all 1s;
+  opacity: 0;
+}
+
+.show-modal{
+  visibility: visible;
+  opacity: 1;
+}
+
+.white-bg {
+  background: white;
+  border-radius: 5px;
+  padding: 30px;
+} 
+
+.list-group {
+  display : none;
+}
+.show {
+  display : block;
+}
+
+.main-bg{
+  padding: 100px 20px;
+  background: lightgrey;
+}
+.passwordCheck{
+  display : none;
+}
